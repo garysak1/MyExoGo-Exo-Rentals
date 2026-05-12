@@ -1,7 +1,8 @@
 // 简单表单提交处理
 document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault();
-    alert('感谢您的咨询！我们会尽快与您联系。');
+    alert('Thank you for your inquiry! We will contact you as soon as possible.
+');
     this.reset();
 });
 
